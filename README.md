@@ -1,7 +1,5 @@
 # Start linux distribution as VM in headless mode
 
-# Start linux distribution as VM in headless mode
-
 **Dependencies** 
 
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
