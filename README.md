@@ -26,6 +26,8 @@
 
 ### Configure port forwarding in VirtualBox
 
+#### NAT Adapter option
+
 Settings --> Network  
 Select **NAT** adapter  
 Advanced --> Port Forwarding
@@ -35,6 +37,15 @@ Protocol | Host IP | Host Port | Guest IP | Guest Port
 TCP | 127.0.1.1 | 2222 | {VM Machine IP} | 22
 
 *{VM Machine IP} - IP address on your VM, e.g. 10.0.2.15*
+
+#### Bridged Adapter option
+
+- Set VM network adapter to "Bridged Adapter"
+- Check the IP
+
+![ifconfig](ifconfig.PNG)
+
+- ```ssh user@10.190.19.224```
 
 ## #2 Create bat file that will run on start-up
 
